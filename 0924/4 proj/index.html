@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>Мой первый проект</title>
+        <meta http-equiv="Content type" content="text/html;charset=UTF8" />
+    </head>
+
+    <body>
+        <form action="#" method="post" enctype="multipart/form-data">
+            <div>
+                <p>Логин</p>
+                <input type="text" name="log" tabindex="1" placeholder="Логин">
+            </div>
+             <div>
+                <p>Пароль</p>
+                <input type="password" name="pass" tabindex="2" placeholder="Пароль">
+            </div>
+            <div>
+                <p>Телефон</p>
+                <input type="tel" name="username" tabindex="3">
+            </div>
+
+            <div>
+                <p>Пол</p>
+                <div>
+                    <input tabindex="4" type="radio" name="gender" value="male"> Мужской
+                </div>
+                <div>
+                    <input tabindex="4" type="radio" name="gender" value="female"> Женский
+                </div>
+            </div>
+
+            <div>
+                <p>Имущество</p>
+                <div>
+                    <input tabindex="5" type="checkbox" checked name="car" value="yes"> Машина
+                </div>
+                <div>
+                    <input tabindex="6" type="checkbox" name="house" value="yes"> Дом
+                </div>
+                <div>
+                    <input tabindex="7" type="checkbox" disabled name="snus" value="yes"> Снюс
+                </div>
+            </div>
+
+            <div>
+                <p>Дополнительная информация</p>
+                <div>
+                    <textarea tabindex="8" name="info"></textarea>
+                </div>
+            </div>
+
+            <div>
+                <p>Прикрепить фото</p>
+                <div>
+                    <input tabindex="9" type="file">
+                </div>
+            </div>
+
+            <div>
+                <p>Любимый цвет</p>
+                    <select name="color">
+                        <option value="rus">Белый синий красный</option>
+                        <option value="uah">Желтый голубой</option>
+                    </select>
+            </div>
+
+            <div>
+                <p>Действие</p>
+                <button type="submit">Отправить</button>
+                <button type="reset">Сбросить</button>
+            </div>
+        </form>
+
+    </body>
+
+
+
+</html>
